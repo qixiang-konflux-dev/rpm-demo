@@ -1,0 +1,20 @@
+---
+lockfileVersion: 1
+lockfileVendor: redhat
+arches:
+- arch: aarch64
+  packages:
+  - url: https://download.devel.redhat.com/rhel-9/nightly/RHEL-9/RHEL-9.5.0-20241004.3/compose/AppStream/aarch64/os/Packages/gawk-all-langpacks-5.1.0-6.el9.aarch64.rpm
+    repoid: rhel-9-appstream
+    size: 216292
+    checksum: sha256:3fd73bd271e9c04dc297eb08c3829d276faee372f77666aad29f4b676ea220f4
+    name: gawk-all-langpacks
+    evr: 5.1.0-6.el9
+    sourcerpm: gawk-5.1.0-6.el9.src.rpm
+  - url: https://download.devel.redhat.com/rhel-9/nightly/RHEL-9/RHEL-9.5.0-20241004.3/compose/AppStream/aarch64/os/Packages/gdb-gdbserver-14.2-3.el9.aarch64.rpm
+    repoid: rhel-9-appstream
+    size: 316102
+    checksum: sha256:106275301659704a3a0fbe5b2940ac816e1fd236c3a8de3407b95232a4f30d0b
+    name: gdb-gdbserver
+    evr: 14.2-3.el9
+    sourcerpm: gdb-14.2-3.el9.src.rpm

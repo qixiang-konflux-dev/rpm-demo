@@ -1,0 +1,16 @@
+{
+  "backup": {
+    "test": {
+      "name": "registry.access.redhat.com/ubi9",
+      "type": "docker",
+      "value": "9.4"
+    }
+  },
+  "setup": {
+    "test": {
+      "name": "registry.access.redhat.com/ubi9",
+      "type": "docker",
+      "value": "9.4"
+    }
+  }
+}

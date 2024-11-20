@@ -1,0 +1,5 @@
+[netavark-rpms]
+name = netavark-rpms
+baseurl = https://file.rdu.redhat.com/~qwan/netavark/rpms/
+enabled = 1
+gpgcheck = 0

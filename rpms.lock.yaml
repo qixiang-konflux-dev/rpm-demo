@@ -4,31 +4,19 @@ lockfileVendor: redhat
 arches:
 - arch: x86_64
   packages:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/a/aardvark-dns-1.10.0-3.el9_4.x86_64.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 992388
-    checksum: sha256:80b678c8de4468ae913a170555d4a453dbdbe29e90cde892677b32a7910adf68
+  - url: https://file.rdu.redhat.com/~qwan/netavark/rpms/aardvark-dns-1.12.1-1.el9.x86_64.rpm
+    repoid: netavark-rpms
+    size: 1056322
+    checksum: sha256:e0e149c416e44fb5321411b831e78364ed8cacaa4892f2b25e76ccec62d1e4dd
     name: aardvark-dns
-    evr: 2:1.10.0-3.el9_4
-    sourcerpm: aardvark-dns-1.10.0-3.el9_4.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/n/netavark-1.10.3-1.el9.x86_64.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 4154881
-    checksum: sha256:6d396676446c846f2a186174f4cd9aec56968f7cb66e69587b78da5adfe08c92
+    evr: 2:1.12.1-1.el9
+    sourcerpm: aardvark-dns-1.12.1-1.el9.src.rpm
+  - url: https://file.rdu.redhat.com/~qwan/netavark/rpms/netavark-1.12.2-1.el9.x86_64.rpm
+    repoid: netavark-rpms
+    size: 4324493
+    checksum: sha256:fbd2f7eb13a0b9b999a80b09ea4294fed217be7b82c491b508b983f3d09c576b
     name: netavark
-    evr: 2:1.10.3-1.el9
-    sourcerpm: netavark-1.10.3-1.el9.src.rpm
-  source:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/a/aardvark-dns-1.10.0-3.el9_4.src.rpm
-    repoid: ubi-9-appstream-source
-    size: 6339554
-    checksum: sha256:05f4f326bef99726cb4388284e60d1b872b928eaf9954b78f6e58d24aecc64d5
-    name: aardvark-dns
-    evr: 2:1.10.0-3.el9_4
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/n/netavark-1.10.3-1.el9.src.rpm
-    repoid: ubi-9-appstream-source
-    size: 16263237
-    checksum: sha256:2e6c73ce93e54e577c14f54a8341141c20ad7c3ff2d6fe6ab087d94fc4f66d51
-    name: netavark
-    evr: 2:1.10.3-1.el9
+    evr: 2:1.12.2-1.el9
+    sourcerpm: netavark-1.12.2-1.el9.src.rpm
+  source: []
   module_metadata: []
